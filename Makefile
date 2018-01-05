@@ -21,7 +21,7 @@ OBJ =		$(patsubst $(SDIR)/%$(SOURCE_EXT),$(ODIR)/%.o,$(SRC))
 DEP =		$(OBJ:.o=.d)
 
 # output file
-MAIN = nfso
+MAIN = out
 
 build: $(MAIN)
 
